@@ -1,4 +1,8 @@
 AWS Systems Manager lets you remotely and securely manage the configuration of your managed instances. It helps you automate management tasks. 
+- Create IAM Role - Assign Permissions
+- Create EC2 & Assign IAM Role - "AmazonEC2RoleforSSM" role to an Amazon EC2 instance with "AmazonSSMFullAccess" Permissions
+- Bootstrap with SSM
+- Run Command
 
 ## User-Data:
 ```sh
